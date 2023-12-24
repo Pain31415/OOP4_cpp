@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{9918a70f-bf6d-409e-b9b0-16ae6f447981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Entity">
+      <UniqueIdentifier>{35626b42-8b94-4c2b-865d-00bc753eb0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{d442a77e-3217-43b2-9207-cc1d998c2b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Greeting">
+      <UniqueIdentifier>{cc3941e5-9a86-4142-9ddd-3982976e9fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Menu">
+      <UniqueIdentifier>{de95e928-d1f9-464a-b9e4-ade32a35e112}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="tree.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="greeting.cpp">
+      <Filter>Greeting</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Domain\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tree.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="greeting.h">
+      <Filter>Greeting</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Domain\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
